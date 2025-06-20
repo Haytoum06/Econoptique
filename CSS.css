@@ -1,5 +1,4 @@
 :root {
-    /* Variables pour le mode jour */
     --bg-primary: linear-gradient(135deg, #a1a1a1 0%, #a5a5a5 100%);
     --bg-secondary: rgba(255, 255, 255, 0.1);
     --bg-card: rgba(255, 255, 255, 0.95);
@@ -40,7 +39,7 @@
     position: right;
 }
 body {
-    background-color: var(--bg-content);
+    background-color: var(--bg-primary);
 }
 .Centre {
     text-align: center;
@@ -264,7 +263,7 @@ img {
     position: relative;
     width: 60px;
     height: 30px;
-    background: #374151;
+    background: #505050;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -286,7 +285,7 @@ img {
 }
 
 .theme-toggle.active {
-    background: #3b82f6;
+    background: #dfdfdf;
 }
 
 .theme-toggle.active::before {
